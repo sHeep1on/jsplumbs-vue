@@ -1,0 +1,167 @@
+.user-infor{
+    height: 135px;
+}
+.avator-img{
+    display: block;
+    width: 80%;
+    max-width: 100px;
+    height: auto;
+}
+.card-user-infor-name{
+    font-size: 2em;
+    color: #2d8cf0;
+}
+.card-title{
+    color: #abafbd;
+}
+.made-child-con-middle{
+    height: 100%;
+}
+.to-do-list-con{
+    height: 145px;
+    overflow: auto;
+}
+.to-do-item{
+    padding: 2px;
+}
+.infor-card-con{
+    height: 100px;
+}
+.infor-card-icon-con{
+    height: 100%;
+    color: white;
+    border-radius: 3px 0 0 3px;
+}
+.map-con{
+    height: 305px;
+}
+.map-incon{
+    height: 100%;
+}
+.data-source-row{
+    height: 200px;
+}
+.line-chart-con{
+    height: 150px;
+}
+
+.home-main>p{
+    width: 420px;
+    height: 40px;
+    margin: 180px auto;
+    background:-webkit-linear-gradient(left top,#11bdf1,#5595f0);
+    box-shadow: 0 0 3px 1px #d9d9d9;
+    border-radius: 40px;
+}
+.home-main>p>.ivu-input-wrapper{
+    width: 42px !important;
+}
+.searchid>input{
+     width: 350px;
+     height: 40px;
+     background: #fff;
+     border-radius: 40px
+}
+.home-main>p>span{
+    width: 52px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    font-size: 15px;
+    color: #f7f3f3;
+    cursor: pointer
+}
+.searchbox{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../static/page/images/bg_grid.png");
+    background-repeat: repeat
+}
+.case-list-ct {
+    position: relative;
+    height: 200px;
+    padding-bottom: 15px;
+    .el-radio-group {
+        .el-radio {
+            display: block;
+            margin-left: 30px;
+            line-height: 30px;
+        }
+    }
+}
+.history-wr {
+    position: absolute;
+    width: 430px;
+    height: 220px;
+    background: #fff;
+    top: 226px;
+    left: 50%;
+    margin-left: -215px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 1px #d9d9d9;
+    .none-history {
+        line-height: 50px;
+        width:100%;
+        text-align: center;
+        color: #949494;
+        position: absolute;
+    }
+    .history-ct {
+        position: relative;
+        height: 190px;
+        &.company-ct{
+            height: 210px;
+        }
+        li {
+          height: 30px;
+          line-height: 30px;
+          box-sizing: border-box;
+          padding: 0px 18px 0 10px;
+          display: flex;
+          justify-content: space-between;
+          &:first-child{
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+          }
+          &:hover{
+            background:#E4E4E4;
+            span:nth-child(2){
+                display: block;
+            }
+          }
+
+          span {
+              &:nth-child(1){
+                  width: 320px;
+                  overflow: hidden;
+                  text-overflow:ellipsis;
+                  white-space:nowrap;
+                  cursor: pointer;
+              }
+              &:nth-child(2){
+                color: #949494;
+                cursor: pointer;
+                display: none;
+              }
+          }
+        }
+
+    }
+    .inter-history {
+        line-height: 25px;
+        float: right;
+        span {
+            padding-right: 20px;
+            color: #949494;
+            cursor: pointer;
+        }
+    }
+}

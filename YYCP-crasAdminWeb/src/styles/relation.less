@@ -1,0 +1,180 @@
+.main{
+    display: flex;
+    #relation{
+        width: 280px!important;
+        min-width: 280px;
+        float: left;
+        background-color: #fff;
+        height: 100%;
+        .search{
+            height: 72px;
+            padding: 0 10px;
+            padding-top: 28px;
+            border-bottom: 1px solid #d9d9d9;
+            .el-icon-circle-plus{
+                font-size: 12px;
+            }
+            .bntDown{
+                .ivu-dropdown-menu{
+                    min-width: 72px;
+                }
+                .ivu-dropdown-item{
+                    padding: 7px 10px;
+                }
+            }
+            button{
+                float: right;
+                margin-left: 8px;
+            }
+            button:hover{
+                background: none;
+            }
+            .imgBtn{
+                width: 72px;
+                height: 32px;
+                padding: 0;
+                span{
+                    display: inline-block;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 14px;
+                    img{
+                        vertical-align: bottom;
+                    }
+                    img.active{
+                        opacity: 0.5;
+                        filter: alpha(opacity=50);
+                    }
+                }
+            }
+            .ivu-dropdown{
+                float: right;
+                button{
+                    width: 72px;
+                    height: 32px;
+                    padding: 0;
+                }
+                .ivu-select-dropdown{
+                    top: 60px !important;
+                    button{
+                        border: 0 none;
+                        float: initial;
+                    }
+                    button:hover{
+                        background: none;
+                    }
+                }
+            }
+        }
+        h2{
+            float: left;
+            // margin-right: 20px;
+            cursor: pointer;
+            color: #397cbf;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 32px;
+		}
+    }
+    .mainContent{
+        background: #fff;
+        float: left;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        margin: 15px;
+        // padding: 0 32px;
+        #listTable{
+            padding:0 32px;
+        }
+        .relationShow{
+            padding:0 32px;
+        }
+        .relationTable{ //控制属性页
+            .el-tabs__content {
+                overflow: visible;
+            }
+            .inTab{
+                .el-tabs__nav-wrap:after{
+                    background:none;
+                    border-bottom: 1px solid #f2f2f2;
+                }
+                .el-tabs__header{
+                    background: #fafafa;
+                    padding-left: 32px;
+                }
+                .el-tabs__header{
+                    margin: 0 0 12px;
+                }
+                .el-tabs__content{
+                    padding: 0 32px;
+                }
+            }
+            .showTitle{
+                line-height: 68px;
+                font-size: 18px;
+                font-weight: 900;
+                border-bottom: 1px solid #d9d9d9;
+                padding: 0 30px;
+                img{
+                    vertical-align: middle;
+                    // margin-right: 15px;
+                }
+                .switch{
+                    margin-left: 15px;
+                }
+                button{
+                    float: right;
+                    margin-top: 20px;
+                }
+            }
+            .propertyTitle{
+                border-bottom: 0 none;
+
+            }
+            .contentMain{
+                .editBtn{
+                    height: 35px;
+                    line-height: 35px;
+                    .edit{
+                        float: right;
+                    }
+                }
+                .formShow{
+                    .ivu-form-item{
+                        .ivu-form-item-label{
+                            width: 107px;
+                        }
+                        .ivu-form-item-content{
+                            width: 190px;
+                            button{
+                                width: 100%;
+                                overflow: hidden;
+                                text-overflow:ellipsis;
+                                white-space: nowrap;
+                                border: 0;
+                                text-align: left;
+                            }
+                            p{
+                                width: 100%;
+                                text-align: left;
+                                overflow: hidden;
+                                text-overflow:ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
+            .propBtn{
+                height: 32px;
+                .addBtn{
+                    background: #fff;
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+//弹框
